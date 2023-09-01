@@ -3,5 +3,55 @@
     margin: 0;
     padding: 0;
 
-    /*  */
+    /* Primary Colors */
+    --m-orange: hsl(22, 65%, 57%);
+    --m-black: hsl(0, 0%, 6%);
+    --m-gray: hsl(0, 0%, 95%);
+    --m-white: hsl(0, 0%, 98%);
+
+    /* Secondary Colors */
+    --s-orange: hsl(21, 94%, 75%);
+    --s-white: hsl(0, 0%, 100%);
+    --s-black: hsl(0, 0%, 0%);
+
+    /* Font Family */
+    font-family: 'Manrope', sans-serif;
+}
+
+/* DESIGN SYSTEM */
+.design_section {
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.design-title {
+    display: flex;
+    gap: 34px;
+}
+
+.design-detail-wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.color-palette {
+    background-color: var(--m-orange);
+    border-radius: 10px;
+    height: 96px;
+    width: 255px;
+}
+
+.highlight {
+    color: var(--m-orange);
+}
+
+
+h2 {
+    letter-spacing: 2px;
+}
+
+.palette-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
